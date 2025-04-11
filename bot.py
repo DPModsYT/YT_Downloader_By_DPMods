@@ -1,4 +1,5 @@
 # bot.py
+from config import BOT_TOKEN, API_ID, API_HASH, FORCE_SUB_CHANNEL, ADMIN_USERNAME
 
 import os
 import asyncio
