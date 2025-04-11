@@ -11,7 +11,7 @@ from utils.downloader import get_formats, download_video
 if not os.path.exists("downloads"):
     os.makedirs("downloads")
 
-bot = Client("yt_bot", bot_token=BOT_TOKEN)
+bot = Client("yt_bot", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
 
 def force_subscribe_keyboard():
     return InlineKeyboardMarkup([
